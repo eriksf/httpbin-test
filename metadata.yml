@@ -1,0 +1,5 @@
+---
+
+name: httpbin_get
+type: passthrough
+url: http://httpbin/get
