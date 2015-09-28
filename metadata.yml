@@ -3,3 +3,11 @@
 name: httpbin_get
 type: passthrough
 url: http://httpbin.org/get
+whitelist:
+  - httpbin.org:
+      deny:
+        - foo
+        - bar
+      forward:
+        - baz
+  - example.com
