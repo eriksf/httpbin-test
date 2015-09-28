@@ -1,0 +1,5 @@
+---
+
+name: httpbin_post
+type: passthrough
+url: http://httpbin.org/post
