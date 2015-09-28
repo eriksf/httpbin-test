@@ -10,4 +10,5 @@ whitelist:
         - bar
       forward:
         - baz
+        - X-Jwt-Assertion-Araport-Org
   - example.com
