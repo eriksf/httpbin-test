@@ -2,4 +2,4 @@
 
 name: httpbin_get
 type: passthrough
-url: httpbin.org/get
+url: httpbin.org
