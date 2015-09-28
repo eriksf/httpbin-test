@@ -11,5 +11,5 @@ whitelist:
       forward:
         - baz
         - X-Jwt-Assertion-Araport-Org
-        - Authentication
+        - Authorization
   - example.com
