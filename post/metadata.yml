@@ -3,3 +3,12 @@
 name: httpbin_post
 type: passthrough
 url: http://httpbin.org/post
+whitelist:
+  - httpbin.org:
+      deny:
+        - foo
+        - bar
+      forward:
+        - baz
+        - X-Jwt-Assertion-Araport-Org
+        - Authorization
